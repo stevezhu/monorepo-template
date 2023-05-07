@@ -1,6 +1,5 @@
 {
   "name": "web",
-  "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,7 +12,6 @@
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "^8.40.0",
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^5.0.4",
