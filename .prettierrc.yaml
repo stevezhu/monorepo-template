@@ -1,0 +1,8 @@
+plugins:
+  - prettier-plugin-packagejson
+  - prettier-plugin-tsconfig
+  - '@trivago/prettier-plugin-sort-imports'
+singleQuote: true
+importOrder:
+  - '^[./]'
+importOrderSortSpecifiers: true
