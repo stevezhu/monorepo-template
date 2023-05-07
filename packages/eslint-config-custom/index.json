@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": [
+    "turbo",
+    "eslint:recommended",
+    "eslint-config-custom/configs/import",
+    "prettier"
+  ],
+  "ignorePatterns": ["dist/"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "overrides": [
+    {
+      "files": [".eslintrc.cjs", "*.config.*"],
+      "env": {
+        "node": true
+      }
+    },
+    {
+      "files": ["*.{ts,tsx}"],
+      "extends": ["eslint-config-custom/configs/typescript", "prettier"]
+    }
+  ]
+}
