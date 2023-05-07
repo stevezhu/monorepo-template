@@ -1,14 +1,11 @@
 {
   "name": "ui",
-  "version": "0.0.0",
-  "license": "MIT",
   "main": "./index.ts",
   "types": "./index.ts",
   "scripts": {
     "lint": "eslint \"**/*.ts\""
   },
   "devDependencies": {
-    "eslint": "^8.40.0",
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^5.0.4"

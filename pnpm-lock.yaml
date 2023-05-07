@@ -82,9 +82,6 @@ importers:
 
   packages/ui:
     devDependencies:
-      eslint:
-        specifier: ^8.40.0
-        version: 8.40.0
       eslint-config-custom:
         specifier: workspace:*
         version: link:../eslint-config-custom
