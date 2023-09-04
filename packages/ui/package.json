@@ -9,10 +9,10 @@
     "test": "tsc"
   },
   "devDependencies": {
-    "@types/react": "^18.2.6",
+    "@types/react": "^18.2.21",
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
-    "typescript": "^5.0.4"
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "react": "^18.0.0"

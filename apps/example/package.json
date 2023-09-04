@@ -14,11 +14,11 @@
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
-    "typescript": "^5.0.4",
-    "vite": "^4.3.5"
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
   }
 }
