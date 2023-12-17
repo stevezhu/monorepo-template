@@ -22,4 +22,4 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Comment on PR
-        uses: stevezhu/action-outdated-deps
+        uses: stevezhu/action-outdated-deps@v0.0.1
