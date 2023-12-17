@@ -5,6 +5,10 @@ import { markdownTable } from 'markdown-table';
 /** @param {import('@types/github-script').AsyncFunctionArguments} AsyncFunctionArguments */
 export async function commentOutdated({ github, context }) {
   const outdatedMarkdown = await getOutdatedOutput();
+  if (outdatedMarkdown == null) {
+    console.debug('No outdated dependencies');
+    return;
+  }
   const { owner, repo, number: issue_number } = context.issue;
   const comments = await github.rest.issues.listComments({
     owner,
@@ -17,7 +21,7 @@ export async function commentOutdated({ github, context }) {
   });
   const body = ['# Outdated Packages', outdatedMarkdown].join('\n');
   if (comment) {
-    console.log(`Updating existing comment: ${comment.id}`);
+    console.debug(`Updating existing comment: ${comment.id}`);
     await github.rest.issues.updateComment({
       owner,
       repo,
@@ -25,7 +29,7 @@ export async function commentOutdated({ github, context }) {
       body,
     });
   } else {
-    console.log('Creating new comment');
+    console.debug('Creating new comment');
     await github.rest.issues.createComment({
       owner,
       repo,
@@ -41,10 +45,14 @@ async function getOutdatedOutput() {
       resolve(stdout);
     });
   });
-  const outdatedPackageData = JSON.parse(output);
+  const outdatedData = JSON.parse(output);
+  const depNames = Object.keys(outdatedData);
+  if (depNames.length === 0) {
+    return null;
+  }
   const data = [['Package', 'Current', 'Latest', 'Dependents']];
-  for (let name of Object.keys(outdatedPackageData)) {
-    const entry = outdatedPackageData[name];
+  for (let name of depNames) {
+    const entry = outdatedData[name];
     if (entry.dependencyType === 'devDependencies') {
       name += ' (dev)';
     }
