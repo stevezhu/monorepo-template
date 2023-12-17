@@ -7,8 +7,12 @@
     "prettier"
   ],
   "ignorePatterns": ["dist/"],
+  "env": {
+    "es6": true
+  },
   "parserOptions": {
-    "ecmaVersion": "latest"
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
   "overrides": [
     {

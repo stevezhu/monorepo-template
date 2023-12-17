@@ -5,8 +5,8 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
-    "lint": {},
     "//#format": {},
+    "lint": {},
     "test": {},
     "test:watch": {
       "cache": false,
