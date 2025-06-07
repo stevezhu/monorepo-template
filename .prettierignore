@@ -1,3 +1,10 @@
 pnpm-lock.yaml
 
 dist/
+.wrangler/
+
+# generated files
+migrations/
+_generated/
+*.gen.ts
+*.gen.d.ts

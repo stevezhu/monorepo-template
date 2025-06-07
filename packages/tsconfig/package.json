@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig",
+  "name": "@internal/tsconfig",
   "private": true,
   "description": "Shared config for TypeScript"
 }

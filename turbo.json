@@ -1,12 +1,14 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "pipeline": {
+  "ui": "tui",
+  "tasks": {
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
     "//#format": {},
     "lint": {},
+    "lint:fix": {},
     "test": {},
     "test:watch": {
       "cache": false,
