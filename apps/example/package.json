@@ -24,10 +24,11 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@internal/eslint-config": "workspace:^",
-    "@internal/tsconfig": "workspace:^",
-    "@types/react": "^19.1.6",
+    "@stzhu/eslint-config": "^0.2.0",
+    "@stzhu/tsconfig": "^0.1.0",
+    "@types/react": "^19.1.7",
     "@types/react-dom": "^19.1.6",
+    "eslint": "^9.28.0",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
   }

@@ -19,9 +19,10 @@
     "test": "tsc --noEmit"
   },
   "devDependencies": {
-    "@internal/eslint-config": "workspace:^",
-    "@internal/tsconfig": "workspace:^",
-    "@types/react": "^19.1.6",
+    "@stzhu/eslint-config": "^0.2.0",
+    "@stzhu/tsconfig": "^0.1.0",
+    "@types/react": "^19.1.7",
+    "eslint": "^9.28.0",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {

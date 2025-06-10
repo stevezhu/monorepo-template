@@ -10,7 +10,7 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@internal/eslint-config": "workspace:^",
+    "@stzhu/eslint-config": "^0.2.0",
     "@stzhu/prettier-plugin-tsconfig": "^0.5.0",
     "eslint": "^9.28.0",
     "prettier": "^3.5.3",
