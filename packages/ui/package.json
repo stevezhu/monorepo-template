@@ -1,20 +1,31 @@
 {
-  "name": "ui",
+  "name": "@internal/ui",
   "private": true,
   "type": "module",
-  "main": "./src/index.ts",
-  "types": "./src/index.ts",
+  "imports": {
+    "#*": [
+      "./src/*",
+      "./src/*.ts",
+      "./src/*.tsx",
+      "./src/*/index.ts",
+      "./src/*/index.tsx"
+    ]
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
   "scripts": {
     "lint": "eslint .",
-    "test": "tsc"
+    "test": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/react": "^18.2.45",
-    "eslint-config-custom": "workspace:*",
-    "tsconfig": "workspace:*",
-    "typescript": "^5.3.3"
+    "@stzhu/eslint-config": "^0.2.0",
+    "@stzhu/tsconfig": "^0.1.0",
+    "@types/react": "^19.1.7",
+    "eslint": "^9.28.0",
+    "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "react": "^18.0.0"
+    "react": "^19.0.0"
   }
 }

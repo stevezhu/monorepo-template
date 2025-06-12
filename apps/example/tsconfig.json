@@ -1,1 +1,1 @@
-{ "extends": "tsconfig/tsconfig.base.json" }
+{ "extends": "@stzhu/tsconfig/tsconfig.react.json" }

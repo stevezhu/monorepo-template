@@ -1,4 +1,8 @@
 plugins:
   - prettier-plugin-packagejson
-  - prettier-plugin-tsconfig
+  - '@stzhu/prettier-plugin-tsconfig'
+  - prettier-plugin-tailwindcss
 singleQuote: true
+trailingComma: all
+tailwindFunctions:
+  - twMerge

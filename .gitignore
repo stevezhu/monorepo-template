@@ -8,6 +8,7 @@ coverage
 
 # build
 dist
+.swc
 
 # misc
 .DS_Store
@@ -17,9 +18,35 @@ dist
 
 # local env files
 .env*
+!.env*.example
 
 # turbo
 .turbo
 
 # vscode
 .vscode/launch.json
+
+# storybook
+*storybook.log
+
+# Cloudflare
+.wrangler
+.dev.vars
+cloudflare-env.gen.d.ts
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
