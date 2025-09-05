@@ -19,7 +19,7 @@
     "test": "tsc --noEmit"
   },
   "devDependencies": {
-    "@stzhu/eslint-config": "^0.2.0",
+    "@stzhu/eslint-config": "^0.6.0",
     "@stzhu/tsconfig": "^0.1.0",
     "@types/react": "^19.1.7",
     "eslint": "^9.28.0",
