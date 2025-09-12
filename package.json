@@ -10,13 +10,13 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@stzhu/eslint-config": "^0.2.0",
-    "@stzhu/prettier-plugin-tsconfig": "^0.5.0",
-    "eslint": "^9.28.0",
-    "prettier": "^3.5.3",
-    "prettier-plugin-packagejson": "^2.5.15",
-    "prettier-plugin-tailwindcss": "^0.6.12",
-    "turbo": "^2.5.4"
+    "@stzhu/eslint-config": "^0.6.4",
+    "@stzhu/prettier-plugin-tsconfig": "^0.6.1",
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-packagejson": "^2.5.19",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "turbo": "^2.5.6"
   },
   "packageManager": "pnpm@10.15.1",
   "engines": {
