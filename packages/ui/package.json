@@ -19,11 +19,11 @@
     "test": "tsc --noEmit"
   },
   "devDependencies": {
-    "@stzhu/eslint-config": "^0.2.0",
+    "@stzhu/eslint-config": "^0.6.4",
     "@stzhu/tsconfig": "^0.1.0",
-    "@types/react": "^19.1.7",
-    "eslint": "^9.28.0",
-    "typescript": "^5.8.3"
+    "@types/react": "^19.1.12",
+    "eslint": "^9.35.0",
+    "typescript": "^5.9.2"
   },
   "peerDependencies": {
     "react": "^19.0.0"
