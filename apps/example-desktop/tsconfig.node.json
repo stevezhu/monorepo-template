@@ -5,7 +5,9 @@
   ],
   "include": [
     "*.config.ts",
+    "src/main.ts",
     "src/main/**/*",
+    "src/preload.ts",
     "src/preload/**/*",
     "src/shared/**/*"
   ],

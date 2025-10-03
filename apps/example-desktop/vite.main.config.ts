@@ -6,7 +6,7 @@ export default defineConfig({
     lib: {
       entry: 'src/main.ts',
       formats: ['es'],
-      fileName: (format, entryName) => `${entryName}.${format}.js`,
+      fileName: () => `[name].js`,
     },
   },
 });

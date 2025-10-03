@@ -6,7 +6,7 @@
     "email": "4130171+stevezhu@users.noreply.github.com"
   },
   "type": "module",
-  "main": ".vite/build/main.es.js",
+  "main": ".vite/build/main.js",
   "scripts": {
     "lint": "eslint --ext .ts,.tsx .",
     "make": "electron-forge make",
