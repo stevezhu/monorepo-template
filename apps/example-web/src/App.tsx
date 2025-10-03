@@ -1,4 +1,4 @@
-import { Counter } from '@internal/ui';
+import { Counter } from '@workspace/ui';
 
 export function App() {
   return <Counter />;

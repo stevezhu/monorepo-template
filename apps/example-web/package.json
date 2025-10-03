@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "example-web",
   "private": true,
   "type": "module",
   "imports": {
@@ -19,17 +19,17 @@
     "test": "tsc --noEmit"
   },
   "dependencies": {
-    "@internal/ui": "workspace:^",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "@workspace/ui": "workspace:*",
+    "react": "catalog:",
+    "react-dom": "catalog:"
   },
   "devDependencies": {
     "@stzhu/eslint-config": "^0.6.4",
     "@stzhu/tsconfig": "^0.1.0",
-    "@types/react": "^19.1.12",
-    "@types/react-dom": "^19.1.9",
-    "eslint": "^9.35.0",
-    "typescript": "^5.9.2",
-    "vite": "^7.1.5"
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "eslint": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@internal/ui",
+  "name": "@workspace/ui",
   "private": true,
   "type": "module",
   "imports": {
@@ -21,11 +21,11 @@
   "devDependencies": {
     "@stzhu/eslint-config": "^0.6.4",
     "@stzhu/tsconfig": "^0.1.0",
-    "@types/react": "^19.1.12",
-    "eslint": "^9.35.0",
-    "typescript": "^5.9.2"
+    "@types/react": "catalog:",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
   },
   "peerDependencies": {
-    "react": "^19.0.0"
+    "react": "catalog:"
   }
 }

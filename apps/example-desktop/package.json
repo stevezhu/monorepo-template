@@ -1,0 +1,50 @@
+{
+  "name": "example-desktop",
+  "version": "0.1.0",
+  "author": {
+    "name": "Steve Zhu",
+    "email": "4130171+stevezhu@users.noreply.github.com"
+  },
+  "type": "module",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "dev": "electron-forge start",
+    "lint": "eslint --ext .ts,.tsx .",
+    "make": "electron-forge make",
+    "package": "electron-forge package",
+    "publish": "electron-forge publish"
+  },
+  "dependencies": {
+    "@workspace/ui": "workspace:*",
+    "electron-squirrel-startup": "^1.0.1",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.9.0",
+    "@electron-forge/maker-deb": "^7.9.0",
+    "@electron-forge/maker-rpm": "^7.9.0",
+    "@electron-forge/maker-squirrel": "^7.9.0",
+    "@electron-forge/maker-zip": "^7.9.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.9.0",
+    "@electron-forge/plugin-fuses": "^7.9.0",
+    "@electron-forge/plugin-vite": "^7.9.0",
+    "@electron-forge/shared-types": "^7.9.0",
+    "@electron-toolkit/tsconfig": "^2.0.0",
+    "@electron/fuses": "^2.0.0",
+    "@stzhu/eslint-config": "^0.6.4",
+    "@stzhu/tsconfig": "^0.1.0",
+    "@types/electron-squirrel-startup": "^1.0.2",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "electron": "^38.2.1",
+    "eslint": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:"
+  },
+  "productName": "example-desktop"
+}
