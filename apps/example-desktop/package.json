@@ -5,7 +5,8 @@
     "name": "Steve Zhu",
     "email": "4130171+stevezhu@users.noreply.github.com"
   },
-  "main": ".vite/build/main.js",
+  "type": "module",
+  "main": ".vite/build/main.es.js",
   "scripts": {
     "lint": "eslint --ext .ts,.tsx .",
     "make": "electron-forge make",
@@ -25,6 +26,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.9.0",
     "@electron-forge/plugin-fuses": "^7.9.0",
     "@electron-forge/plugin-vite": "^7.9.0",
+    "@electron-forge/shared-types": "^7.9.0",
     "@electron/fuses": "^2.0.0",
     "@types/electron-squirrel-startup": "^1.0.2",
     "@typescript-eslint/eslint-plugin": "^8.45.0",
