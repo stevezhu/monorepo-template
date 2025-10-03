@@ -3,6 +3,6 @@
     "@electron-toolkit/tsconfig/tsconfig.web.json",
     "@stzhu/tsconfig/tsconfig.react.json"
   ],
-  "include": ["src/renderer/src/**/*", "src/preload/*.d.ts", "src/shared/**/*"],
+  "include": ["src/renderer/**/*", "src/preload/*.d.ts", "src/shared/**/*"],
   "compilerOptions": { "composite": true }
 }
