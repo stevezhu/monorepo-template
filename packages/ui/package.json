@@ -1,5 +1,5 @@
 {
-  "name": "@internal/ui",
+  "name": "@workspace/ui",
   "private": true,
   "type": "module",
   "imports": {

@@ -19,7 +19,7 @@
     "test": "tsc --noEmit"
   },
   "dependencies": {
-    "@internal/ui": "workspace:^",
+    "@workspace/ui": "workspace:*",
     "react": "catalog:",
     "react-dom": "catalog:"
   },

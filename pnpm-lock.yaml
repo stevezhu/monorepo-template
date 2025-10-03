@@ -111,8 +111,8 @@ importers:
 
   apps/example-web:
     dependencies:
-      '@internal/ui':
-        specifier: workspace:^
+      '@workspace/ui':
+        specifier: workspace:*
         version: link:../../packages/ui
       react:
         specifier: 'catalog:'
