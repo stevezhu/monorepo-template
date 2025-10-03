@@ -8,11 +8,11 @@
   "type": "module",
   "main": ".vite/build/main.js",
   "scripts": {
+    "dev": "electron-forge start",
     "lint": "eslint --ext .ts,.tsx .",
     "make": "electron-forge make",
     "package": "electron-forge package",
-    "publish": "electron-forge publish",
-    "start": "electron-forge start"
+    "publish": "electron-forge publish"
   },
   "dependencies": {
     "@workspace/ui": "workspace:*",
