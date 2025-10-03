@@ -3,6 +3,7 @@ packages:
   - packages/*
 
 catalog:
+  '@types/node': ^24.6.2
   '@types/react': ^19.1.17
   '@types/react-dom': ^19.1.11
   eslint: ^9.36.0
@@ -16,3 +17,6 @@ onlyBuiltDependencies:
   - electron-winstaller
   - esbuild
   - unrs-resolver
+
+overrides:
+  '@eslint/config-helpers': ^0.3.1

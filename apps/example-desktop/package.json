@@ -27,15 +27,18 @@
     "@electron-forge/plugin-fuses": "^7.9.0",
     "@electron-forge/plugin-vite": "^7.9.0",
     "@electron-forge/shared-types": "^7.9.0",
+    "@electron-toolkit/tsconfig": "^2.0.0",
     "@electron/fuses": "^2.0.0",
+    "@stzhu/eslint-config": "^0.6.4",
+    "@stzhu/tsconfig": "^0.1.0",
     "@types/electron-squirrel-startup": "^1.0.2",
+    "@types/node": "catalog:",
     "@typescript-eslint/eslint-plugin": "^8.45.0",
     "@typescript-eslint/parser": "^8.45.0",
     "electron": "^38.2.1",
-    "eslint": "^9.37.0",
-    "eslint-plugin-import": "^2.32.0",
-    "typescript": "~5.9.3",
-    "vite": "^7.1.9"
+    "eslint": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:"
   },
   "productName": "example-desktop"
 }

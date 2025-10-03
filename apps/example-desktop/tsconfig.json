@@ -1,15 +1,7 @@
 {
-  "compilerOptions": {
-    "noImplicitAny": true,
-    "baseUrl": ".",
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "outDir": "dist",
-    "sourceMap": true,
-    "allowJs": true,
-    "esModuleInterop": true,
-    "target": "ESNext",
-    "skipLibCheck": true
-  }
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.browser.json" }
+  ]
 }
