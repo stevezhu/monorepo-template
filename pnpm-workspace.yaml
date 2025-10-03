@@ -12,6 +12,7 @@ catalog:
   vite: ^7.1.7
 
 onlyBuiltDependencies:
+  - electron
   - electron-winstaller
   - esbuild
   - unrs-resolver
